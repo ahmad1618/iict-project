@@ -89,13 +89,6 @@ header {
     transform: translateY(-2px);
 }
 
-footer {
-    text-align: center;
-    padding: 0.25rem;
-    margin-top: auto;
-    background-color: #014f0b;
-    color: #ecf0f1;
-}
 
 @keyframes fadeIn {
     from { opacity: 0; }
