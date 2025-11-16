@@ -1,0 +1,36 @@
+h1, h2 {
+	color: white;
+	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9)
+}
+
+
+.hero-section {
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.featured-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    flex-basis: 40%;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: darkgreen;
+}
+
+

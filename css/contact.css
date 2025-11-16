@@ -1,0 +1,65 @@
+h1, h2 {
+	color: whitesmoke;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.contact-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #04bf1d;
+    outline: none;
+}
+
+.contact-form button.btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+.body-contact-page {
+    background-image: url('../images/fast.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+

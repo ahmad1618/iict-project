@@ -1,0 +1,36 @@
+h1, h2 {
+	color: whitesmoke;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9)
+}
+
+.news-item {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.body-news-page {
+    background-image: url('../images/faisal_mosque.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.read-more {
+    display: inline-block;
+    color: #014f0b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #04bf1d;
+}

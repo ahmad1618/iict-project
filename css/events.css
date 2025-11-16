@@ -1,0 +1,39 @@
+h1, h2 {
+	color: whitesmoke;
+	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+}
+
+.event-grid {
+    display: grid;
+
+    gap: 1.5rem;
+}
+
+.event-card {
+
+    background: rgba(255, 255, 255, 0.7);
+
+    padding: 1.5rem;
+
+    box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.body-events-page {
+    background-image: url('../images/lake.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+
+
