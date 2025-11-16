@@ -103,8 +103,15 @@ footer {
 }
 
 
+
 @media (max-width: 768px) {
+    
    
+    header {
+        position: static; 
+    }
+
+    
     .navbar {
         flex-direction: column;
         align-items: center;
@@ -127,10 +134,10 @@ footer {
         text-align: center;
     }
 
-   
+  
     main {
         margin-top: 1rem;
         margin-bottom: 1rem;
-        padding: 0 0.5rem; 
+        padding: 0 0.5rem;
     }
 }
