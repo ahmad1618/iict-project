@@ -30,7 +30,7 @@ h1, h2 {
 header {
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    position: sticky;
+    position: static;
     top: 0;
     z-index: 10;
 }
